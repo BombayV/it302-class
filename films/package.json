@@ -1,0 +1,20 @@
+{
+  "name": "films",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/films_app_msr26.js",
+    "dev": "bun --watch src/films_app_msr26.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0"
+  }
+}
